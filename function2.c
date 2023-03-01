@@ -6,6 +6,8 @@ int main()
 {
     int arr[8] = {10, 13, 14, 21, 54, 12, 20, 65};
     sort(arr, 8);
+    
+    // Because array is a pointer, so here the calling type of the 'sort' function is Call by Reference.
 
     for (int j = 0; j < 8; j++)
     {
