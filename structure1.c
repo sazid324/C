@@ -3,7 +3,7 @@
 
 struct studentData
 {
-    char name[100];
+    char name[120];
     int sub[3];
     int total;
 };
